@@ -1,3 +1,3 @@
-module github.com/cblte/100-golang-exercises
+module github.com/lserra/100-golang-exercises
 
-go 1.16
+go 1.25.7
