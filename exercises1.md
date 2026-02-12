@@ -14,11 +14,11 @@ This document contains all the beginner exercises. If you find an error, bug, or
 
 Write a program that finds all numbers divisible by 7 but are not multiples of 5, between 2000 and 3200 (both included). The numbers obtained should be printed in a comma-separated sequence on a single line.
 
-### 💡 Hint
+### 💡 Hint 001
 
 Consider using `strconv` and `strings.Join`.
 
-### ✅ Solution
+### ✅ Solution 001
 
 [View Solution](001/exercise001.go)
 
@@ -33,11 +33,11 @@ Write a program that computes the factorial of a given number. The results shoul
 - **Input:** `8`
 - **Output:** `40320`
 
-### 💡 Hints
+### 💡 Hints 002
 
 In case of input data being supplied to the question, it should be assumed to be console input.
 
-### ✅ Solution
+### ✅ Solution 002
 
 [View Solution](002/exercise002.go)
 
@@ -52,12 +52,12 @@ Given an integral number `n`, write a program to generate a map that contains `(
 - **Input:** `8`
 - **Expected Output:** `map[1:1 2:4 3:9 4:16 5:25 6:36 7:49 8:64]`
 
-### 💡 Hints
+### 💡 Hints 003
 
 - Use `make` to create the map
 - Use `%v` verb for output formatting
 
-### ✅ Solution
+### ✅ Solution 003
 
 [View Solution](003/exercise003.go)
 
@@ -72,12 +72,12 @@ Write a program that accepts a sequence of comma-separated numbers from the cons
 - **Input:** `34, 67, 55, 33, 12, 98`
 - **Expected Output:** `[34 67 55 33 12 98]`
 
-### 💡 Hints
+### 💡 Hints 004
 
 - Input data should be assumed to be console input
 - The `strings` package has a `Split` method
 
-### ✅ Solution
+### ✅ Solution 004
 
 [View Solution](004/exercise004.go)
 
@@ -92,11 +92,11 @@ Create a separate file (module) that has at least two methods:
 
 Also create a `main.go` file that acts as the calling class.
 
-### 💡 Hints
+### 💡 Hints 005
 
 - Use `bufio.NewScanner(os.Stdin)` to read a full line of text
 - Use `go run .` to execute all files in the directory
 
-### ✅ Solution
+### ✅ Solution 005
 
 [View Solution](005/exercise005.go)
