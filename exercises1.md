@@ -1,6 +1,6 @@
 # 📚 Exercises for Beginners
 
-**Author:** Laercio Serra <laercio.serra@gmail.com>  
+**Author:** <laercio.serra@gmail.com>  
 **Version:** v0.0.1, March 2026
 
 **Description:** Rewritten from the 100+ Python challenging programming exercises  
@@ -10,7 +10,7 @@
 
 This document contains all the beginner exercises. If you find an error, bug, or something that could be written better, please get in contact with me. Thanks! 🙏
 
-## 🔢 Exercise 001: Find Numbers Divisible by 7 but Not by 5
+## 🔢 001: Find Numbers Divisible by 7 but Not by 5
 
 Write a program that finds all numbers divisible by 7 but are not multiples of 5, between 2000 and 3200 (both included). The numbers obtained should be printed in a comma-separated sequence on a single line.
 
@@ -20,11 +20,13 @@ Consider using `strconv` and `strings.Join`.
 
 ### ✅ Solution 001
 
-[View Solution](001/exercise001.go)
+```text
+001/exercise001.go
+```
 
 ---
 
-## 🧮 Exercise 002: Compute Factorial
+## 🔢 002: Compute Factorial
 
 Write a program that computes the factorial of a given number. The results should be printed in a comma-separated sequence on a single line.
 
@@ -39,11 +41,13 @@ In case of input data being supplied to the question, it should be assumed to be
 
 ### ✅ Solution 002
 
-[View Solution](002/exercise002.go)
+```text
+002/exercise002.go
+```
 
 ---
 
-## 📊 Exercise 003: Create a Map with Numbers Squared
+## 🔢 003: Create a Map with Numbers Squared
 
 Given an integral number `n`, write a program to generate a map that contains `(i, i*i)` where `i` is an integral number between 1 and `n` (both included). The program should then print the map representation.
 
@@ -59,11 +63,13 @@ Given an integral number `n`, write a program to generate a map that contains `(
 
 ### ✅ Solution 003
 
-[View Solution](003/exercise003.go)
+```text
+003/exercise003.go
+```
 
 ---
 
-## 📝 Exercise 004: Create a Slice from Comma-Separated Input String
+## 🔢 004: Create a Slice from Comma-Separated Input String
 
 Write a program that accepts a sequence of comma-separated numbers from the console and generates a slice from them. Return the slice.
 
@@ -79,11 +85,13 @@ Write a program that accepts a sequence of comma-separated numbers from the cons
 
 ### ✅ Solution 004
 
-[View Solution](004/exercise004.go)
+```text
+004/exercise004.go
+```
 
 ---
 
-## 🏗️ Exercise 005: Define a "Class" (Interface) with at Least Two Methods
+## 🔢 005: Define a "Class" (Interface) with at Least Two Methods
 
 Create a separate file (module) that has at least two methods:
 
@@ -99,4 +107,6 @@ Also create a `main.go` file that acts as the calling class.
 
 ### ✅ Solution 005
 
-[View Solution](005/exercise005.go)
+```text
+005/exercise005.go
+```
