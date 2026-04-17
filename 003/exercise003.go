@@ -1,9 +1,10 @@
 package main
 
 /*
-Exercise 003
-
-With a given integral number n, write a program to generate a map that contains (i, i*i) such that is an integral number between 1 and n (both included), and then the program should print the map with representation of the value
+With a given integral number n, write a program to generate a map
+that contains (i, i*i) such that is an integral number between 1 and n
+(both included), and then the program should print the map with representation
+of the value.
 
 Suppose the following input is supplied to the program: 8
 Then, the output should be:
@@ -31,7 +32,7 @@ func main() {
 // Ex003 returns a map with numbers are their squared values
 func Ex003(n int) map[int]int {
 	// create a map with the size of n
-	var numbers = make(map[int]int, n)
+	numbers := make(map[int]int, n)
 
 	for i := 1; i <= n; i++ {
 		numbers[i] = i * i
