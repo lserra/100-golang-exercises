@@ -18,7 +18,7 @@ func main() {
 
 	// reading input from console
 	var input int
-	fmt.Print("Please enter a number : ")
+	fmt.Print("Please enter a number: ")
 	_, err := fmt.Scanln(&input)
 	// checking for error and low 0
 	if err != nil {
@@ -30,10 +30,10 @@ func main() {
 		log.Fatalf("Error for input %v: %v", input, err)
 	}
 
-	fmt.Printf("Factorial of %d = %d", input, result)
+	fmt.Printf("Factorial of %d = %d\n", input, result)
 }
 
-// Ex002 returns a factorial of input
+// Returns a factorial of input
 // if input == 0 returns 1 as per definition
 // if input < 0 returns 0 and an error
 func FactorialNumber(input int) (uint64, error) {

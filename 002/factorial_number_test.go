@@ -4,7 +4,7 @@ import (
 	"testing"
 )
 
-func TestEx002(t *testing.T) {
+func TestFactorialNumber(t *testing.T) {
 	// check for error
 	want := 0
 	got, err := FactorialNumber(-10)

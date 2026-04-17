@@ -18,7 +18,7 @@ import (
 )
 
 func main() {
-	fmt.Println("Exercise 003")
+	fmt.Println("== Exercise 003 ==")
 	var n int
 	fmt.Print("Enter a number: ")
 	_, err := fmt.Scanln(&n)
@@ -26,11 +26,11 @@ func main() {
 		log.Fatal("Error occured: ", err)
 	}
 
-	fmt.Printf("%v", Ex003(n))
+	fmt.Printf("%v\n", GenerateMap(n))
 }
 
-// Ex003 returns a map with numbers are their squared values
-func Ex003(n int) map[int]int {
+// returns a map with numbers are their squared values
+func GenerateMap(n int) map[int]int {
 	// create a map with the size of n
 	numbers := make(map[int]int, n)
 

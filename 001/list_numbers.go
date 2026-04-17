@@ -21,7 +21,7 @@ func main() {
 	fmt.Println(res)
 }
 
-// ListNumbers returns a slice of numbers
+// Returns a slice of numbers
 func ListNumbers(low, high int) string {
 	var numbers []string
 	for i := low; i <= high; i++ {
